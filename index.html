@@ -19,68 +19,20 @@
     <button class="menu" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu">☰</button>
   </header>
   <nav class="mobile-menu" id="mobileMenu" hidden><a href="#thinkers">Thinkers</a><a href="#books">Books</a><a href="#species">Species</a><a href="#lab">Integrity Lab</a><a href="#charter">Charter</a></nav>
-
   <main id="main">
-    <section class="hero" id="top">
-      <div class="hero-copy">
-        <div class="eyebrow">A public learning experience for a living planet</div>
-        <h1>Knowledge becomes wisdom <em>when it carries responsibility.</em></h1>
-        <p class="lead">Science tells us how life works. Integrity asks what we will do with that knowledge. Explore people, books, species pressures and decisions that connect evidence with responsibility.</p>
-        <div class="actions"><a class="btn primary" href="#thinkers">Enter the hall of ideas ↘</a><button class="btn" id="randomBtn">Give me one idea</button></div>
-      </div>
-      <aside class="quote">
-        <div class="k">THE ASCENT OF MAN · 1973</div>
-        <blockquote>“Knowledge is not a loose-leaf notebook of facts. Above all, it is a responsibility for the integrity of what we are—above all, of what we are as ethical creatures.”</blockquote>
-        <footer><strong>Jacob Bronowski</strong><br>mathematician · humanist · science communicator</footer>
-      </aside>
-      <div class="principles">
-        <div><span>01</span><strong>Evidence</strong><small>Know what the data can—and cannot—say.</small></div>
-        <div><span>02</span><strong>Humility</strong><small>Uncertainty is not weakness. Hiding it is.</small></div>
-        <div><span>03</span><strong>Stewardship</strong><small>Power over nature creates duties toward life.</small></div>
-        <div><span>04</span><strong>Action</strong><small>Integrity is knowledge translated into choices.</small></div>
-      </div>
-    </section>
-
-    <section class="manifesto">
-      <div><b>SCIENCE WITHOUT INTEGRITY</b>can become power without direction.</div>
-      <div><b>INTEGRITY WITHOUT SCIENCE</b>can become conviction without evidence.</div>
-      <div><b>WE NEED BOTH</b>if life is to have a future.</div>
-    </section>
-
-    <section class="section" id="thinkers">
-      <div class="head"><div><div class="eyebrow">Hall of ideas</div><h2>People who widened the moral horizon of science.</h2></div><p>Not a hall of saints. A hall of arguments: test them, challenge them, connect them. Direct quotations and editorial syntheses are labeled separately.</p></div>
-      <div class="controls"><input class="search" id="search" type="search" placeholder="Search a person, idea, book…"><div class="chips" id="chips"><button class="chip active" data-filter="all">All</button><button class="chip" data-filter="evidence">Evidence</button><button class="chip" data-filter="ecology">Ecology</button><button class="chip" data-filter="ethics">Ethics</button><button class="chip" data-filter="conservation">Conservation</button></div></div>
-      <div class="grid" id="thinkerGrid"><div class="loading">Loading thinkers…</div></div>
-    </section>
-
-    <section class="section" id="books">
-      <div class="head"><div><div class="eyebrow">Reading constellation</div><h2>Books that changed how we see our place in nature.</h2></div><p>A starting shelf, not a canon. Read the argument around the quote: context is part of integrity.</p></div>
-      <div class="books" id="bookshelf"><div class="loading">Loading books…</div></div>
-      <div class="note"><strong>Reading rule:</strong> do not collect quotes as ornaments. Read the argument around them. Context is part of integrity.</div>
-    </section>
-
-    <section class="section" id="species">
-      <div class="head"><div><div class="eyebrow">Species lens</div><h2>Extinction is not one problem. It is a system of pressures.</h2></div><p>IPBES identifies five major direct drivers of global biodiversity change. Click a driver to connect pressure → mechanism → consequence → response.</p></div>
-      <div class="split"><div class="driverlist" id="driverList"><div class="loading">Loading drivers…</div></div><article class="detail" id="driverDetail"><div class="loading">Loading driver detail…</div></article></div>
-      <div class="species" id="speciesGrid"><div class="loading">Loading species examples…</div></div>
-    </section>
-
-    <section class="section" id="lab">
-      <div class="head"><div><div class="eyebrow">Interactive integrity lab</div><h2>When evidence is incomplete, what should a responsible decision look like?</h2></div><p>Real conservation decisions rarely arrive with perfect data. The goal is disciplined judgment, not imaginary certainty.</p></div>
-      <div class="lab"><div class="tabs" id="tabs"></div><div class="scenario"><div class="scenario-main"><div class="eyebrow" id="scenarioMeta"></div><h3 id="scenarioTitle"></h3><p id="scenarioText"></p><div class="options" id="options"></div></div><aside class="analysis" id="analysis"><div class="placeholder"><b>Choose an action.</b>Then examine it through the Integrity Compass.</div></aside></div></div>
-      <div class="compass"><div><div class="eyebrow">The integrity compass</div><h3>Six questions before an irreversible decision.</h3></div><ol><li><span>01</span><div><strong>Evidence</strong><p>What supports the claim? What would falsify it?</p></div></li><li><span>02</span><div><strong>Uncertainty</strong><p>What do we not know, and have we said it clearly?</p></div></li><li><span>03</span><div><strong>Reversibility</strong><p>If we are wrong, can ecological damage be undone?</p></div></li><li><span>04</span><div><strong>Interdependence</strong><p>What hidden food webs and relationships are affected?</p></div></li><li><span>05</span><div><strong>Transparency</strong><p>Who benefits, who bears risk, and are conflicts visible?</p></div></li><li><span>06</span><div><strong>Future life</strong><p>Does this preserve options for species and generations not in the room?</p></div></li></ol></div>
-    </section>
-
+    <section class="hero" id="top"><div class="hero-copy"><div class="eyebrow">A public learning experience for a living planet</div><h1>Knowledge becomes wisdom <em>when it carries responsibility.</em></h1><p class="lead">Science tells us how life works. Integrity asks what we will do with that knowledge. Explore people, books, species pressures and decisions that connect evidence with responsibility.</p><div class="actions"><a class="btn primary" href="#thinkers">Enter the hall of ideas ↘</a><button class="btn" id="randomBtn">Give me one idea</button></div></div><aside class="quote"><div class="k">THE ASCENT OF MAN · 1973</div><blockquote>“Knowledge is not a loose-leaf notebook of facts. Above all, it is a responsibility for the integrity of what we are—above all, of what we are as ethical creatures.”</blockquote><footer><strong>Jacob Bronowski</strong><br>mathematician · humanist · science communicator</footer></aside><div class="principles"><div><span>01</span><strong>Evidence</strong><small>Know what the data can—and cannot—say.</small></div><div><span>02</span><strong>Humility</strong><small>Uncertainty is not weakness. Hiding it is.</small></div><div><span>03</span><strong>Stewardship</strong><small>Power over nature creates duties toward life.</small></div><div><span>04</span><strong>Action</strong><small>Integrity is knowledge translated into choices.</small></div></div></section>
+    <section class="manifesto"><div><b>SCIENCE WITHOUT INTEGRITY</b>can become power without direction.</div><div><b>INTEGRITY WITHOUT SCIENCE</b>can become conviction without evidence.</div><div><b>WE NEED BOTH</b>if life is to have a future.</div></section>
+    <section class="section" id="thinkers"><div class="head"><div><div class="eyebrow">Hall of ideas</div><h2>People who widened the moral horizon of science.</h2></div><p>Not a hall of saints. A hall of arguments: test them, challenge them, connect them. Direct quotations and editorial syntheses are labeled separately.</p></div><div class="controls"><input class="search" id="search" type="search" placeholder="Search a person, idea, book…"><div class="chips" id="chips"><button class="chip active" data-filter="all">All</button><button class="chip" data-filter="evidence">Evidence</button><button class="chip" data-filter="ecology">Ecology</button><button class="chip" data-filter="ethics">Ethics</button><button class="chip" data-filter="conservation">Conservation</button></div></div><div class="grid" id="thinkerGrid"><div class="loading">Loading thinkers…</div></div></section>
+    <section class="section" id="books"><div class="head"><div><div class="eyebrow">Reading constellation</div><h2>Books that changed how we see our place in nature.</h2></div><p>A starting shelf, not a canon. Read the argument around the quote: context is part of integrity.</p></div><div class="books" id="bookshelf"><div class="loading">Loading books…</div></div><div class="note"><strong>Reading rule:</strong> do not collect quotes as ornaments. Read the argument around them. Context is part of integrity.</div></section>
+    <section class="section" id="species"><div class="head"><div><div class="eyebrow">Species lens</div><h2>Extinction is not one problem. It is a system of pressures.</h2></div><p>IPBES identifies five major direct drivers of global biodiversity change. Click a driver to connect pressure → mechanism → consequence → response.</p></div><div class="split"><div class="driverlist" id="driverList"><div class="loading">Loading drivers…</div></div><article class="detail" id="driverDetail"><div class="loading">Loading driver detail…</div></article></div><div class="species" id="speciesGrid"><div class="loading">Loading species examples…</div></div></section>
+    <section class="section" id="lab"><div class="head"><div><div class="eyebrow">Interactive integrity lab</div><h2>When evidence is incomplete, what should a responsible decision look like?</h2></div><p>Real conservation decisions rarely arrive with perfect data. The goal is disciplined judgment, not imaginary certainty.</p></div><div class="lab"><div class="tabs" id="tabs"></div><div class="scenario"><div class="scenario-main"><div class="eyebrow" id="scenarioMeta"></div><h3 id="scenarioTitle"></h3><p id="scenarioText"></p><div class="options" id="options"></div></div><aside class="analysis" id="analysis"><div class="placeholder"><b>Choose an action.</b>Then examine it through the Integrity Compass.</div></aside></div></div><div class="compass"><div><div class="eyebrow">The integrity compass</div><h3>Six questions before an irreversible decision.</h3></div><ol><li><span>01</span><div><strong>Evidence</strong><p>What supports the claim? What would falsify it?</p></div></li><li><span>02</span><div><strong>Uncertainty</strong><p>What do we not know, and have we said it clearly?</p></div></li><li><span>03</span><div><strong>Reversibility</strong><p>If we are wrong, can ecological damage be undone?</p></div></li><li><span>04</span><div><strong>Interdependence</strong><p>What hidden food webs and relationships are affected?</p></div></li><li><span>05</span><div><strong>Transparency</strong><p>Who benefits, who bears risk, and are conflicts visible?</p></div></li><li><span>06</span><div><strong>Future life</strong><p>Does this preserve options for species and generations not in the room?</p></div></li></ol></div></section>
     <section class="section" id="timelineSection"><div class="head"><div><div class="eyebrow">A lineage of ideas</div><h2>From common descent to common responsibility.</h2></div><p>Scientific understanding expanded our picture of life; ecological ethics asked us to expand our obligations with it.</p></div><div class="timeline" id="timeline"></div></section>
-
     <section class="section" id="charter"><div class="charter"><div class="eyebrow centered">The living-world integrity charter</div><h2>Science is not only a way of knowing. It is a way of being answerable to reality.</h2><div class="chartergrid"><div class="rules"><p><span>01</span>I will prefer evidence over ego.</p><p><span>02</span>I will state uncertainty instead of hiding it.</p><p><span>03</span>I will distinguish what is from what I merely wish were true.</p><p><span>04</span>I will treat irreversible ecological harm with special caution.</p><p><span>05</span>I will remember that humans are participants in nature, not spectators above it.</p><p><span>06</span>I will judge progress partly by what life remains possible after us.</p></div><div class="commit"><div class="seal">∞</div><p>This is not a petition and sends no personal data. Your commitment is stored only in this browser.</p><button class="btn primary" id="commitBtn">I commit to the charter</button><span class="status" id="commitStatus"></span></div></div></div></section>
-
     <section class="section" id="sourcesSection"><div class="head"><div><div class="eyebrow">Source discipline</div><h2>Every quotation should have a trail back to context.</h2></div><p>Source links favor institutional, primary-text or reputable archival material where practical.</p></div><div class="sources" id="sources"></div></section>
   </main>
-
   <footer class="site"><span><strong>The Ethical Ascent</strong> · Science × Integrity × Life</span><span>Quotes remain the words of their authors. Editorial summaries are labeled.</span></footer>
-
   <div class="modal" id="modal" hidden aria-hidden="true"><div class="dialog" role="dialog" aria-modal="true" aria-labelledby="modalQuote"><button class="close" id="close" aria-label="Close">×</button><div class="eyebrow" id="modalKicker"></div><blockquote id="modalQuote"></blockquote><div class="role" id="modalPerson"></div><button class="btn" id="anotherBtn">Another idea ↻</button></div></div>
   <script src="app.js?v=2" defer></script>
+  <script src="infinity.js?v=1" defer></script>
 </body>
 </html>
