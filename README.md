@@ -4,6 +4,8 @@
 
 An interactive public-learning website about scientific evidence, intellectual integrity, biodiversity, and humanity's responsibility toward the living world.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/UpendarRaoGunda/The-Ethical-Ascent)
+
 The project begins with Jacob Bronowski's argument in *The Ascent of Man* that knowledge carries responsibility for our integrity as ethical creatures, then expands the conversation through Rachel Carson, Jane Goodall, Aldo Leopold, Charles Darwin, Carl Sagan, E. O. Wilson, Sylvia Earle, Wangari Maathai, Barry Commoner, J. Howard Moore, David Attenborough, and others.
 
 ## Experiences
@@ -22,7 +24,7 @@ Open `index.html` in a modern browser. No build step or backend is required.
 
 ## Render
 
-This repository includes `render.yaml` for a Render static-site deployment.
+This repository includes `render.yaml` for a Render static-site deployment. Use the **Deploy to Render** button above to create the static site from the Blueprint, or connect this repository from the Render dashboard.
 
 ## Content integrity
 
